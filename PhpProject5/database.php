@@ -1,10 +1,10 @@
 <?php
 class Database
 {
-    private static $dbName = 'projects' ;
+    private static $dbName = 'id7029439_localhost';
     private static $dbHost = 'localhost';
-    private static $dbUsername = 'ackott';
-    private static $dbUserPassword = '';
+    private static $dbUsername = 'id7029439_ackott';
+    private static $dbUserPassword = 'Password123';
      
     private static $cont  = null;
      

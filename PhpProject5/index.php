@@ -9,7 +9,7 @@
 <body>
     <div class="container">
             <div class="row">
-                <p><a href=https://cis-255.000webhostapp.com >Github Repo</a></p>
+                <p><a href=https://github.com/ackott/CIS355 >Github Repo</a></p>
                 <h3>PHP CRUD Grid</h3>
             </div>
             <div class="row">
@@ -30,7 +30,7 @@
                       <?php
                        include 'database.php';
                        $pdo = Database::connect();
-                       $sql = 'SELECT * FROM customers ORDER BY id DESC';
+                       $sql = 'SELECT * FROM customer ORDER BY id DESC';
                        foreach ($pdo->query($sql) as $row) {
                                 echo '<tr>';
                                 echo '<td>'. $row['name'] . '</td>';
